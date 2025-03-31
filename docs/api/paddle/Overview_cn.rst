@@ -63,6 +63,7 @@ tensor 数学操作
     " :ref:`paddle.cummin <cn_api_paddle_cummin>` ", "沿给定 axis 计算 Tensor x 的累计最小值"
     " :ref:`paddle.cumprod <cn_api_paddle_cumprod>` ", "沿给定 dim 计算 Tensor x 的累乘"
     " :ref:`paddle.digamma <cn_api_paddle_digamma>` ", "逐元素计算输入 x 的 digamma 函数值"
+    " :ref:`paddle.digamma_ <cn_api_paddle_digamma_>` ", "Inplace 版本的 digamma API, 对输入 x 采用 Inplace 策略"
     " :ref:`paddle.divide <cn_api_paddle_divide>` ", "逐元素相除算子"
     " :ref:`paddle.equal <cn_api_paddle_equal>` ", "返回 x==y 逐元素比较 x 和 y 是否相等，相同位置的元素相同则返回 True，否则返回 False"
     " :ref:`paddle.equal_all <cn_api_paddle_equal_all>` ", "如果所有相同位置的元素相同返回 True，否则返回 False"
