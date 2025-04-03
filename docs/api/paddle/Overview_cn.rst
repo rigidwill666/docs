@@ -451,6 +451,8 @@ tensor 线性代数相关原位（inplace）版本
     :header: "API 名称", "API 功能"
     :widths: 10, 30
 
+    " :ref:`paddle.renorm_ <cn_api_paddle_renorm_>` ", "Inplace 版本的 renorm API，对输入 x 采用 Inplace 策略"
+    " :ref:`paddle.t_ <cn_api_paddle_t_>` ", "Inplace 版本的 t API，对输入 input 采用 Inplace 策略"
     " :ref:`paddle.tril_ <cn_api_paddle_tril_>` ", "Inplace 版本的 tril API，对输入 x 采用 Inplace 策略"
     " :ref:`paddle.triu_ <cn_api_paddle_triu_>` ", "Inplace 版本的 triu API，对输入 x 采用 Inplace 策略"
     " :ref:`paddle.trunc_ <cn_api_paddle_trunc_>` ", "Inplace 版本的 trunc API，对输入 x 采用 Inplace 策略"
