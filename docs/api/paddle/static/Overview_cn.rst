@@ -79,8 +79,6 @@ Executor 相关 API
     " :ref:`sequence_last_step <cn_api_paddle_static_nn_sequence_last_step>` ", "仅支持带有 LoD 信息的 Tensor，对输入的 Tensor，在最后一层 lod_level 上，选取其每个序列的最后一个时间步的特征向量作为池化后的输出向量"
     " :ref:`sequence_pad <cn_api_paddle_static_nn_sequence_pad>` ", "仅支持带有 LoD 信息的 Tensor，将同一 batch 中的序列填充到一个一致的长度（由 maxlen 指定）"
     " :ref:`sequence_pool <cn_api_paddle_static_nn_sequence_pool>` ", "仅支持带有 LoD 信息的 Tensor，对输入的 Tensor 进行指定方式的池化操作"
-    " :ref:`sequence_reshape <cn_api_paddle_static_nn_sequence_reshape>` ", "仅支持带有 LoD 信息的 Tensor，对输入的 Tensor 进行指定方式的变形操作"
-    " :ref:`sequence_reverse <cn_api_paddle_static_nn_sequence_reverse>` ", "仅支持带有 LoD 信息的 Tensor，对输入的 Tensor，在每个序列上进行反转"
     " :ref:`sequence_softmax <cn_api_paddle_static_nn_sequence_softmax>` ", "仅支持带有 LoD 信息的 Tensor，根据 Tensor 信息将输入的第 0 维度进行划分，在划分的每一个区间内部进行运算"
 
 .. _about_io:
